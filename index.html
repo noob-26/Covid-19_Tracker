@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8b60d7b84f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Covid-19 Tracker</title>
+  </head>
+  <body>
+    <h1 class="heading">COVID-19 TRACKER</h1>
+
+    <!-- ALL CASE SECTION -->
+    <section class="allcases">
+      <div class="card">
+        <header>
+          <h3>TOTAL CASES</h3>
+          <i class="fas fa-users"></i>
+        </header>
+        <h4 class="value" id="cases"></h4>
+      </div>
+
+      <div class="card">
+        <header>
+          <h3>TOTAL DEATHS</h3>
+          <i class="fas fa-skull-crossbones"></i>
+        </header>
+        <h4 class="value" id="deaths"></h4>
+      </div>
+
+      <div class="card">
+        <header>
+          <h3>TOTAL RECOVERED</h3>
+          <i class="fas fa-laugh-beam"></i>
+        </header>
+        <h4 class="value" id="recovered"></h4>
+      </div>
+
+      <div class="card">
+        <header>
+          <h3>NEW CASES</h3>
+          <i class="fas fa-bell"></i>
+        </header>
+        <h4 class="value" id="new__cases"></h4>
+      </div>
+    </section>
+
+    <script src="./app.js" async></script>
+  </body>
+</html>

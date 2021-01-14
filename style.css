@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* HEADING */
+.heading{
+    text-align: center;
+    margin: 15px;
+}
+
+
+i{
+    font-size: 25px;
+}
+
+/* ICONS */
+.fa-users{
+    color: blue;
+}
+
+.fa-skull-crossbones{
+    color: red;
+}
+
+.fa-laugh-beam{
+    color: green;
+}
+
+.fa-bell{
+    color: orange;
+}
+
+/* THE TOTAL CASES SECTION */
+
+.allcases{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(226, 226, 226);
+    padding: 25px;
+}
+
+.card{
+    height: 100px;
+    margin: 10px;
+    padding: 15px;
+    background-color:#ffffff;
+    border: 1px solid black;
+    width: 23%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 1024px)
+{
+    .card{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .card{
+        width: 90%;
+    }
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.1s;
+    transform: translateY(-10px);
+    transform: translateZ(-50px);
+}
+
+.card header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .value{
+    margin-top: 10px;
+    font-size: 17px;
+}
