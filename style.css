@@ -84,3 +84,55 @@ i{
     margin-top: 10px;
     font-size: 17px;
 }
+
+.country__search{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.country__search .country__input{
+    width: 50%;
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.search{
+    height: 30px;
+    padding: 0 10px;
+    color: #ffffff;
+    background-color: blue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    margin-bottom: 40px;
+}
+
+.country__card{
+    height: 250px;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.country__card > header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.country__card p{
+    margin: 10px;
+}
+
+#country__card{
+    visibility: hidden;
+}
+
+#country__flag{
+    height: 30px;
+    width: 50px;
+}
